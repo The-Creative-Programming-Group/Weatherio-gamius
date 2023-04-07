@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>Weather.io</h1>
+        <p id="on-off" class="on-off">on</p>
+        <img onclick="menuclick()" id="menu" class="img" src="menu.png">
+    </div>
+
+    <div class="div_invinsible" id="div">
+        <a href="#home">Home</a>
+        <a href="#add">Add/change location</a>
+        <a href="#setting">Settings</a>
+    </div>
+
+    <h2 class="city">London</h2>
+
+    <h2 class="grad1">
+        <div>
+            <p class="grad">6</p>
+            <img class="term" src="celsius.png" alt="">
+            <p class="txtweather">Sunny <br> H:10 L:5</p>
+        </div>
+    </h2>
+
+    <div class="objects">
+        <div class="today">
+        </div>
+        <div class="week">
+        </div>
+        <div class="rain">
+        </div>
+        <div class="celsius">
+        </div>
+        <div class="visibility">
+        </div>
+        <div class="location">
+        </div>
+        <div class="AirQuality">
+        </div>
+        <div class="Wind">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281081258!2d-0.2416801999765736!3d51.5287718404589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20Vereinigtes%20K%C3%B6nigreich!5e0!3m2!1sde!2sde!4v1679930970093!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="impressum">
+        © Weather.io
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

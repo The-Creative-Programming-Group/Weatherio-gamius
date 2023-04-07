@@ -1,0 +1,93 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact input {
+    margin-right: 10px;
+    background-color: rgb(155, 155, 155);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact {
+    display: inline-block;
+    margin-top: 17%;
+    margin-left: 43%;
+    width: 50%;
+}
+
+.firstname {
+    height: 3vh;
+    width: 14.7%;
+}
+
+.lastname {
+    height: 3vh;
+    width: 14.7%;
+}
+
+.email {
+    display: block;
+    width: 30.8%;
+    height: 3vh;
+}
+
+.message {
+    width: 30.8%;
+    padding-bottom: 50px;
+    margin-right: 10px;
+    background-color: rgb(155, 155, 155);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+}
+
+.lastnametext {
+    margin-left: 16.5%;
+}
+
+.firstnametext {
+    position: absolute;
+}
+
+.emailtext {
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 0.3%;
+}
+
+.messagetext {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.button {
+    margin-top: 3%;
+    height: 24px; 
+    width: 15%;
+    margin-left: 7%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(155, 155, 155);
+    transition: .5s;
+}
+
+.button:hover {
+    margin-top: 3%;
+    height: 36px; 
+    width: 15%;
+    margin-left: 7%;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(155, 155, 155);
+}

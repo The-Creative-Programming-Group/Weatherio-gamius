@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    background-color: rgb(214, 214, 214);
+    padding: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.img {
+    position: absolute;
+    left: 5px;
+    top: 3px; 
+}
+
+.header1 {
+    font-size: 20px;
+}
+
+.on-off {
+    display: none;
+}
+
+.impressum {
+    bottom: 0; 
+    position: absolute;
+    width: 100%;  
+    background-color: rgb(214, 214, 214);
+    padding-top: 30px;
+}
+
+.temperatur {
+    position: absolute; 
+    margin-left: 42.5%;
+    margin-top: 5%;
+}
+
+.buttoncelsius {
+    margin-top: 50px;
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+}
+
+.buttonfahrenheit {
+    width: 300px;
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.done {
+    position: relative;
+    height: 29px;
+    bottom: 4px;
+    left: 259px;
+}
+
+.done_invinsible {
+    display: none;
+}
+
+.Fahrenheit {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.celsius {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.headertxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttonmiles {
+    display: block;
+    height: 25px;
+}
+
+.buttonkilometers {
+    display: block;
+    height: 25px;
+}
+
+.celsius_invinsible {
+    position: relative;
+    top: 0.3px;
+}
+
+.wind {
+    position: absolute;
+    margin-left: 42.5%;
+    margin-top: 300px;
+}
+
+.buttonmiles {
+    margin-top: 5%;
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+}
+
+.buttonkilometers {
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.buttonknotes {
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.buttonsecond {
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.buttonbeaufort {
+    display: block;
+    width: 300px; 
+    height: 25px; 
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+.miles {
+    position: absolute;
+    margin-top: 3px; 
+}
+
+.Kilometers {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.Knotes {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.beaufort {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.second {
+    position: absolute;
+    margin-top: 3px;
+}
+
+.save {
+    margin-top: 570px;
+    margin-left: 47%;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 30px;
+    width: 130px; 
+    transition: 0.5s;
+}
+
+.save:hover {
+    margin-top: 570px;
+    margin-left: 46.75%;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 35px;
+    background-color: rgb(204, 204, 204);
+    width: 135px; 
+}
+
+.temperaturunitstxt {
+    display: flex;
+    justify-content: center;
+}
+
+.windspeedtxt {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}

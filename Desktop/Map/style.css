@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("Background.png");
+}
+
+.search {
+    margin-top: 9%;
+    width: 400px;
+    margin-left: 46px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border: 6px solid rgb(206, 205, 205);
+    border-left: none;
+    outline: none;
+    border-radius: 0px 7px 7px 0px; 
+}
+
+.searchitem {
+    position: absolute;
+    margin-top: 5.76%;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border: 6px solid rgb(206, 205, 205);
+    border-right: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.search-setup {
+    margin-left: 36%; 
+}
+
+.map {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 8%;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    border-radius: 15px;
+}

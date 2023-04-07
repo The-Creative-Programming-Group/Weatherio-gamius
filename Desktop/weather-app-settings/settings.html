@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="header">
+        <a>Home</a>
+        <a>Location Settings</a>
+        <h1>Weather.io</h1>
+        <a>Settings</a>
+        <a>Contact Us</a>
+    </div>
+
+    <h1 class="headertxt">Settings</h1>
+
+    <div class="temperatur">
+        <h2 class="temperaturunitstxt" id="temperaturunitstxt">Temperature Units</h2>
+    <button onclick="celsiusclick()" class="buttoncelsius">
+        <div>
+            <p id="celsius" class="celsius">Celsius</p>
+            <img id="done1" src="done.png" class="done">
+        </div>
+    </button>
+    <button onclick="fahrenheitclick()" class="buttonfahrenheit">
+        <div>
+            <p id="fahrenheit" class="celsius_invinsible">Fahrenheit</p>
+            <img id="done2" src="done.png" class="done_invinsible">
+        </div>
+    </button>
+    </div>
+
+    <div class="wind">
+        <h2 class="windspeedtxt" id="windspeedtxt">Wind speed Units</h2>
+    <button onclick="clickmile()" class="buttonmiles">
+        <div>
+            <p id="Milestxt" class="miles1">Miles per hour(mph)</p>
+            <img id="Miles" src="done.png" class="done_invinsible">
+        </div>
+    </button>
+    <button onclick="clickkilometer()" class="buttonkilometers">
+        <div>
+            <p id="Kilometerstxt" class="Kilometers">Kilometers per hour(km/h)</p>
+            <img id="Kilometers" src="done.png" class="done">
+        </div>
+    </button>
+    <button onclick="clickknotes()" class="buttonknotes">
+        <div>
+            <p id="Knotestxt" class="Knotes1">Knotes</p>
+            <img id="Knotes" src="done.png" class="done_invinsible">
+        </div>
+    </button>
+    <button onclick="clicksecondfunk()" class="buttonsecond">
+        <div>
+            <p id="Secondtxt" class="second1">Meters per second(m/s)</p>
+            <img id="second" src="done.png" class="done_invinsible">
+        </div>
+    </button>
+    <button onclick="clickbeaufort()" class="buttonbeaufort">
+        <div>
+            <p id="Beauforttxt" class="beaufort1">Beaufort</p>
+            <img id="beaufort" src="done.png" class="done_invinsible">
+        </div>
+    </button>
+    </div>
+
+    <div>
+        <button class="save">Save Changes</button>
+    </div>
+
+    <div class="impressum">
+        © Weather.io
+    </div>
+
+    <script src="script.js"></script>
+</body>
